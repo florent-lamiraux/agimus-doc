@@ -1,0 +1,87 @@
+// Copyright 2019 CNRS Airbus
+// Author: Florent Lamiraux
+
+// Redistribution and use in source and binary forms, with or without
+// modification, are permitted provided that the following conditions
+// are met:
+
+// 1. Redistributions of source code must retain the above copyright
+// notice, this list of conditions and the following disclaimer.
+
+// 2. Redistributions in binary form must reproduce the above
+// copyright notice, this list of conditions and the following
+// disclaimer in the documentation and/or other materials provided
+// with the distribution.
+
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+// "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+// LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+// FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+// COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+// INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+// (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+// SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+// HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+// STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+// ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+// OF THE POSSIBILITY OF SUCH DAMAGE.
+
+/// \mainpage Agimus: a framework for manipulation motion planning and control.
+///
+/// \section agimus_doc_sec_intro Introduction
+///
+/// \c Agimus is a framework aimed at integrating motion planning and
+/// motion control of manipulation tasks for a wide variety of robots.
+/// The computation pipeline is composed of several steps
+///
+/// \li A motion is planned based on a model of the robot, environment
+/// and objects to grasp, the result is a sequence of manipulation
+/// motions. Along each segment of the motion, a set of constraints is
+/// active (object grasped by a gripper, object still in a stable
+/// pose). This step is performed by the software platform HPP
+/// (Humanoid Path Planner), running in an executable that implements
+/// a CORBA server. To trigger path planning and get solution paths, a
+/// <a href="@HPP_MANIPULATION_CORBA_DOXYGENDOCDIR@/index.html">
+/// CORBA client</a> is run in a ROS node.
+///
+/// \li For each segment of the motion, a controller is created in the
+/// Stack of Tasks framework. This step is produced by package
+/// <a href="@AGIMUS_SOT_DOXYGENDOCDIR@/index.html"> \c agimus_sot </a>.
+/// Reference motions for each task is extracted from the planned trajectory
+/// by <a href="@AGIMUS_HPP_DOXYGENDOCDIR@/index.html">agimus_hpp</a>.
+///
+/// \li A finite state machine switch from one controller to the next
+///  one.  This finite state machine is implemented in package
+///  <a href="@AGIMUS_DOXYGENDOCDIR@/index.html"> \c agimus </a>.
+///
+/// \section agimus_doc_sec_architecture ROS runtime architecture
+///
+/// Execution on a robot is performed using ROS middleware. The
+/// software architecture depends on whether the demo is run on a
+/// robot, or in simulation.
+///
+/// \subsection agimus_doc_subsec_geomtric_simu Geometric Simulation
+///
+/// In this mode, the control input computed by the Stack of Tasks software is
+/// integrated to update the configuration of the robot. The two figures below
+/// display the architecture.
+///
+/// \image html talos-manipulate-boxes-geometric-simu.launch.svg "Example of ROS architecture for a humanoid robot manipulating a box on a table. Blue and red boxes represent ROS nodes grouped by packages. Grey boxes represent launch files."
+///
+/// \image html geometric-simu-rosgraph.svg "Example of ROS architecture for a humanoid robot manipulating a box on a table. Ellipses represent ROS nodes, arrows represent topics."
+///
+/// \subsection agimus_doc_subsec_gazebo_simulation Gazebo simulation
+///
+/// In this mode the robot hardware is simulated by Gazebo.
+///
+/// The ROS nodes are
+/// \li \c hpp_node
+/// \li ...
+///
+/// \subsection agimus_doc_subsec_real_robot
+///
+/// In this mode, the software is run on the real robot.
+///
+/// The ROS nodes are
+/// \li \ hpp_node
+/// \li ...
