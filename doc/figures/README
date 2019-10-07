@@ -1,0 +1,5 @@
+To generate the roslaunch diagram, go to roslaunch_to_dot and type
+
+./roslaunch-to-dot.py --show-node-type /home/florent/devel/pyrene/agimus/install/share/agimus_demos/launch/talos_manipulate_boxes_geometric_simu.launch --svg talos-manipulate-boxes-geometric-simu.launch.svg
+
+then resize the figure in inkscape.

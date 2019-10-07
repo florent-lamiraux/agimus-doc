@@ -12,15 +12,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="650.40002pt"
-   height="502.94601pt"
-   viewBox="0 0 650.40002 502.89202"
+   width="814.20001pt"
+   height="629.51801pt"
+   viewBox="0 0 814.20001 629.43602"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="talos-manipulate-boxes-geometric-simu.launch.svg">
   <metadata
-     id="metadata309">
+     id="metadata327">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -32,7 +32,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs307" />
+     id="defs325" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -44,60 +44,60 @@
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
      inkscape:window-height="1020"
-     id="namedview305"
+     id="namedview323"
      showgrid="false"
-     inkscape:zoom="0.5"
-     inkscape:cx="350.25945"
-     inkscape:cy="149.5351"
-     inkscape:window-x="0"
-     inkscape:window-y="31"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg2"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     inkscape:zoom="0.059974587"
+     inkscape:cx="542.22246"
+     inkscape:cy="393.44873"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
   <g
      id="graph0"
      class="graph"
-     transform="matrix(0.2,0,0,0.2,0.8,502.01104)">
+     transform="matrix(0.2,0,0,0.2,0.8,628.51302)">
     <title
        id="title5">talos_manipulate_boxes_geometric_simu</title>
     <polygon
-       points="-4,-2510.73 3248,-2510.73 3248,4 -4,4 -4,4 "
+       points="-4,4 -4,4 -4,-3143.59 4067,-3143.59 4067,4 "
        id="polygon7"
        style="fill:#ffffff;stroke:none" />
     <g
        id="clust1"
        class="cluster">
       <title
-         id="title10">cluster_agimus_demos</title>
+         id="title10">cluster_tf2_ros</title>
       <polygon
-         points="1199,-2479.63 1913,-2479.63 1913,-2107.01 1199,-2107.01 1199,-2107.01 "
+         points="1576,-29.3077 1576,-29.3077 1576,-575.164 1878,-575.164 1878,-29.3077 "
          id="polygon12"
          style="fill:none;stroke:#000000;stroke-width:3" />
       <text
-         x="1556"
-         y="-2447.6299"
+         x="1727"
+         y="-543.164"
          font-size="35.00"
          id="text14"
-         style="font-size:35px;font-family:Times, serif;text-anchor:middle">agimus_demos</text>
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">tf2_ros</text>
     </g>
     <g
        id="clust2"
        class="cluster">
       <title
-         id="title17">cluster_agimus_hpp</title>
+         id="title17">cluster_robot_state_publisher</title>
       <polygon
-         points="8,-1829.23 194,-1829.23 194,-1456.61 8,-1456.61 8,-1456.61 "
+         points="470,-29.3077 470,-29.3077 470,-575.164 1348,-575.164 1348,-29.3077 "
          id="polygon19"
          style="fill:none;stroke:#000000;stroke-width:3" />
       <text
-         x="101"
-         y="-1797.23"
+         x="909"
+         y="-543.164"
          font-size="35.00"
          id="text21"
-         style="font-size:35px;font-family:Times, serif;text-anchor:middle">agimus_hpp</text>
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">robot_state_publisher</text>
     </g>
     <g
        id="clust3"
@@ -105,12 +105,12 @@
       <title
          id="title24">cluster_dynamic_graph_bridge</title>
       <polygon
-         points="802,-1050.12 1142,-1050.12 1142,-677.494 802,-677.494 802,-677.494 "
+         points="2093,-875.569 2093,-875.569 2093,-1421.43 2433,-1421.43 2433,-875.569 "
          id="polygon26"
          style="fill:none;stroke:#000000;stroke-width:3" />
       <text
-         x="972"
-         y="-1018.12"
+         x="2263"
+         y="-1389.4301"
          font-size="35.00"
          id="text28"
          style="font-size:35px;font-family:Times, serif;text-anchor:middle">dynamic_graph_bridge</text>
@@ -119,33 +119,33 @@
        id="clust4"
        class="cluster">
       <title
-         id="title31">cluster_tf2_ros</title>
+         id="title31">cluster_gerard_bauzil</title>
       <polygon
-         points="302,-399.721 582,-399.721 582,-27.0998 302,-27.0998 302,-27.0998 "
+         points="8,-1932.48 8,-1932.48 8,-2335.46 865,-2335.46 865,-1932.48 "
          id="polygon33"
          style="fill:none;stroke:#000000;stroke-width:3" />
       <text
-         x="442"
-         y="-367.72101"
+         x="436.5"
+         y="-2303.46"
          font-size="35.00"
          id="text35"
-         style="font-size:35px;font-family:Times, serif;text-anchor:middle">tf2_ros</text>
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">gerard_bauzil</text>
     </g>
     <g
        id="clust5"
        class="cluster">
       <title
-         id="title38">cluster_gerard_bauzil</title>
+         id="title38">cluster_tf</title>
       <polygon
-         points="887,-1829.23 1744,-1829.23 1744,-1456.61 887,-1456.61 887,-1456.61 "
+         points="993,-1861.04 993,-1861.04 993,-2406.9 1479,-2406.9 1479,-1861.04 "
          id="polygon40"
          style="fill:none;stroke:#000000;stroke-width:3" />
       <text
-         x="1315.5"
-         y="-1797.23"
+         x="1236"
+         y="-2374.8999"
          font-size="35.00"
          id="text42"
-         style="font-size:35px;font-family:Times, serif;text-anchor:middle">gerard_bauzil</text>
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">tf</text>
     </g>
     <g
        id="clust6"
@@ -153,12 +153,12 @@
       <title
          id="title45">cluster_sot_pyrene_bringup</title>
       <polygon
-         points="202,-1829.23 682,-1829.23 682,-677.494 202,-677.494 202,-677.494 "
+         points="1487,-947.006 1487,-947.006 1487,-2335.46 1967,-2335.46 1967,-947.006 "
          id="polygon47"
          style="fill:none;stroke:#000000;stroke-width:3" />
       <text
-         x="442"
-         y="-1797.23"
+         x="1727"
+         y="-2303.46"
          font-size="35.00"
          id="text49"
          style="font-size:35px;font-family:Times, serif;text-anchor:middle">sot_pyrene_bringup</text>
@@ -167,33 +167,33 @@
        id="clust7"
        class="cluster">
       <title
-         id="title52">cluster_robot_state_publisher</title>
+         id="title52">cluster_agimus_hpp</title>
       <polygon
-         points="712,-399.721 1511,-399.721 1511,-27.0998 712,-27.0998 712,-27.0998 "
+         points="2095,-1861.04 2095,-1861.04 2095,-2406.9 2387,-2406.9 2387,-1861.04 "
          id="polygon54"
          style="fill:none;stroke:#000000;stroke-width:3" />
       <text
-         x="1111.5"
-         y="-367.72101"
+         x="2241"
+         y="-2374.8999"
          font-size="35.00"
          id="text56"
-         style="font-size:35px;font-family:Times, serif;text-anchor:middle">robot_state_publisher</text>
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">agimus_hpp</text>
     </g>
     <g
        id="clust8"
        class="cluster">
       <title
-         id="title59">cluster_tf</title>
+         id="title59">cluster_agimus_sot</title>
       <polygon
-         points="1871,-1829.23 1971,-1829.23 1971,-1456.61 1871,-1456.61 1871,-1456.61 "
+         points="2559,-875.569 2559,-875.569 2559,-2335.46 2937,-2335.46 2937,-875.569 "
          id="polygon61"
          style="fill:none;stroke:#000000;stroke-width:3" />
       <text
-         x="1921"
-         y="-1797.23"
+         x="2748"
+         y="-2303.46"
          font-size="35.00"
          id="text63"
-         style="font-size:35px;font-family:Times, serif;text-anchor:middle">tf</text>
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">agimus_sot</text>
     </g>
     <g
        id="clust9"
@@ -201,12 +201,12 @@
       <title
          id="title66">cluster_agimus</title>
       <polygon
-         points="1979,-1829.23 2846,-1829.23 2846,-677.494 1979,-677.494 1979,-677.494 "
+         points="3065,-875.569 3065,-875.569 3065,-2335.46 4055,-2335.46 4055,-875.569 "
          id="polygon68"
          style="fill:none;stroke:#000000;stroke-width:3" />
       <text
-         x="2412.5"
-         y="-1797.23"
+         x="3560"
+         y="-2303.46"
          font-size="35.00"
          id="text70"
          style="font-size:35px;font-family:Times, serif;text-anchor:middle">agimus</text>
@@ -215,99 +215,141 @@
        id="clust10"
        class="cluster">
       <title
-         id="title73">cluster_agimus_sot</title>
+         id="title73">cluster_agimus_demos</title>
       <polygon
-         points="2956,-1829.23 3236,-1829.23 3236,-677.494 2956,-677.494 2956,-677.494 "
+         points="1430,-2707.3 1430,-2707.3 1430,-3110.28 2144,-3110.28 2144,-2707.3 "
          id="polygon75"
          style="fill:none;stroke:#000000;stroke-width:3" />
       <text
-         x="3096"
-         y="-1797.23"
+         x="1787"
+         y="-3078.28"
          font-size="35.00"
          id="text77"
-         style="font-size:35px;font-family:Times, serif;text-anchor:middle">agimus_sot</text>
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">agimus_demos</text>
     </g>
-    <!-- launch_agimus_demos_talos_manipulate_boxes_geometric_simu -->
+    <!-- node_tf2_ros_buffer_server_tf2_buffer_server -->
     <g
        id="node1"
        class="node">
       <title
-         id="title80">launch_agimus_demos_talos_manipulate_boxes_geometric_simu</title>
+         id="title80">node_tf2_ros_buffer_server_tf2_buffer_server</title>
       <polygon
-         points="1207,-2237.6 1207,-2190.6 1905,-2190.6 1905,-2237.6 1905,-2237.6 "
+         points="1869.5,-259.308 1869.5,-259.308 1584.5,-259.308 1584.5,-173.308 1869.5,-173.308 "
          id="polygon82"
-         style="fill:#d3d3d3;stroke:#000000" />
+         style="fill:#6495ed;stroke:#000000" />
       <text
-         x="1556"
-         y="-2205.6001"
+         x="1727"
+         y="-227.308"
          font-size="35.00"
          id="text84"
-         style="font-size:35px;font-family:Times, serif;text-anchor:middle">talos_manipulate_boxes_geometric_simu.launch</text>
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">tf2_buffer_server</text>
+      <text
+         x="1727"
+         y="-188.308"
+         font-size="35.00"
+         id="text86"
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">type: buffer_server</text>
     </g>
-    <!-- node_agimus_hpp_hpp_node.py_hpp_node -->
+    <!-- node_robot_state_publisher_robot_state_publisher_robot_state_publisher -->
     <g
        id="node2"
        class="node">
       <title
-         id="title87">node_agimus_hpp_hpp_node.py_hpp_node</title>
+         id="title89">node_robot_state_publisher_robot_state_publisher_robot_state_publisher</title>
       <polygon
-         points="32.5,-1586.6 32.5,-1539.6 185.5,-1539.6 185.5,-1586.6 185.5,-1586.6 "
-         id="polygon89"
+         points="876,-259.308 876,-259.308 478,-259.308 478,-173.308 876,-173.308 "
+         id="polygon91"
+         style="fill:#ff0000;stroke:#000000" />
+      <text
+         x="677"
+         y="-227.308"
+         font-size="35.00"
+         id="text93"
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">robot_state_publisher</text>
+      <text
+         x="677"
+         y="-188.308"
+         font-size="35.00"
+         id="text95"
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">type: robot_state_publisher</text>
+    </g>
+    <!-- node_robot_state_publisher_state_publisher_robot_state_publisher -->
+    <g
+       id="node3"
+       class="node">
+      <title
+         id="title98">node_robot_state_publisher_state_publisher_robot_state_publisher</title>
+      <polygon
+         points="1339.5,-259.308 1339.5,-259.308 1020.5,-259.308 1020.5,-173.308 1339.5,-173.308 "
+         id="polygon100"
+         style="fill:#ff0000;stroke:#000000" />
+      <text
+         x="1180"
+         y="-227.308"
+         font-size="35.00"
+         id="text102"
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">robot_state_publisher</text>
+      <text
+         x="1180"
+         y="-188.308"
+         font-size="35.00"
+         id="text104"
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">type: state_publisher</text>
+    </g>
+    <!-- node_dynamic_graph_bridge_geometric_simu_node_stack_of_tasks -->
+    <g
+       id="node4"
+       class="node">
+      <title
+         id="title107">node_dynamic_graph_bridge_geometric_simu_node_stack_of_tasks</title>
+      <polygon
+         points="2423,-1105.31 2423,-1105.31 2103,-1105.31 2103,-1019.31 2423,-1019.31 "
+         id="polygon109"
          style="fill:#6495ed;stroke:#000000" />
       <text
-         x="109"
-         y="-1554.6"
+         x="2263"
+         y="-1073.3101"
          font-size="35.00"
-         id="text91"
-         style="font-size:35px;font-family:Times, serif;text-anchor:middle">hpp_node</text>
-    </g>
-    <!-- launch_agimus_demos_talos_manipulate_boxes_geometric_simu&#45;&gt;node_agimus_hpp_hpp_node.py_hpp_node -->
-    <g
-       id="edge10"
-       class="edge">
-      <title
-         id="title94">launch_agimus_demos_talos_manipulate_boxes_geometric_simu-&gt;node_agimus_hpp_hpp_node.py_hpp_node</title>
-      <path
-         d="m 1473.79,-2190.51 c -220.82,63.07 -840.205,255.88 -1284.79,548.91 -19.98,13.17 -39.338,31.72 -54.005,47.36"
-         id="path96"
-         inkscape:connector-curvature="0"
-         style="fill:none;stroke:#000000;stroke-width:3" />
-      <polygon
-         points="132.374,-1596.56 137.53,-1591.82 137.53,-1591.82 128.189,-1586.82 "
-         id="polygon98"
-         style="fill:#000000;stroke:#000000;stroke-width:3" />
+         id="text111"
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">node_stack_of_tasks</text>
+      <text
+         x="2263"
+         y="-1034.3101"
+         font-size="35.00"
+         id="text113"
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">type: geometric_simu</text>
     </g>
     <!-- launch_gerard_bauzil_plank_of_wood -->
     <g
        id="node5"
        class="node">
       <title
-         id="title101">launch_gerard_bauzil_plank_of_wood</title>
+         id="title116">launch_gerard_bauzil_plank_of_wood</title>
       <polygon
-         points="895.5,-1586.6 895.5,-1539.6 1232.5,-1539.6 1232.5,-1586.6 1232.5,-1586.6 "
-         id="polygon103"
+         points="353.5,-2071.81 353.5,-2071.81 16.5,-2071.81 16.5,-2024.81 353.5,-2024.81 "
+         id="polygon118"
          style="fill:#d3d3d3;stroke:#000000" />
       <text
-         x="1064"
-         y="-1554.6"
+         x="185"
+         y="-2039.8101"
          font-size="35.00"
-         id="text105"
+         id="text120"
          style="font-size:35px;font-family:Times, serif;text-anchor:middle">plank_of_wood.launch</text>
     </g>
-    <!-- launch_agimus_demos_talos_manipulate_boxes_geometric_simu&#45;&gt;launch_gerard_bauzil_plank_of_wood -->
+    <!-- launch_gerard_bauzil_plank_of_wood&#45;&gt;node_robot_state_publisher_robot_state_publisher_robot_state_publisher -->
     <g
-       id="edge13"
+       id="edge15"
        class="edge">
       <title
-         id="title108">launch_agimus_demos_talos_manipulate_boxes_geometric_simu-&gt;launch_gerard_bauzil_plank_of_wood</title>
+         id="title123">launch_gerard_bauzil_plank_of_wood-&gt;node_robot_state_publisher_robot_state_publisher_robot_state_publisher</title>
       <path
-         d="m 1538.78,-2190.38 c -74.18,97.85 -366.49,483.44 -451.48,595.55"
-         id="path110"
+         d="m 191.132,-2024.5 c 50.498,187.83 397.72,1479.325 471.93,1755.351"
+         id="path125"
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#000000;stroke-width:3" />
       <polygon
-         points="1084.33,-1596.72 1089.91,-1592.49 1089.91,-1592.49 1081.08,-1586.63 "
-         id="polygon112"
+         points="666.471,-269.951 665.687,-259.385 659.711,-268.133 666.471,-269.951 "
+         id="polygon127"
          style="fill:#000000;stroke:#000000;stroke-width:3" />
     </g>
     <!-- launch_gerard_bauzil_table_140_70_73 -->
@@ -315,280 +357,105 @@
        id="node6"
        class="node">
       <title
-         id="title115">launch_gerard_bauzil_table_140_70_73</title>
+         id="title130">launch_gerard_bauzil_table_140_70_73</title>
       <polygon
-         points="1376.5,-1586.6 1376.5,-1539.6 1735.5,-1539.6 1735.5,-1586.6 1735.5,-1586.6 "
-         id="polygon117"
+         points="856.5,-2071.81 856.5,-2071.81 497.5,-2071.81 497.5,-2024.81 856.5,-2024.81 "
+         id="polygon132"
          style="fill:#d3d3d3;stroke:#000000" />
       <text
-         x="1556"
-         y="-1554.6"
+         x="677"
+         y="-2039.8101"
          font-size="35.00"
-         id="text119"
+         id="text134"
          style="font-size:35px;font-family:Times, serif;text-anchor:middle">table_140_70_73.launch</text>
-    </g>
-    <!-- launch_agimus_demos_talos_manipulate_boxes_geometric_simu&#45;&gt;launch_gerard_bauzil_table_140_70_73 -->
-    <g
-       id="edge14"
-       class="edge">
-      <title
-         id="title122">launch_agimus_demos_talos_manipulate_boxes_geometric_simu-&gt;launch_gerard_bauzil_table_140_70_73</title>
-      <path
-         d="m 1556,-2190.38 c 0,97.26 0,478.81 0,593.5"
-         id="path124"
-         inkscape:connector-curvature="0"
-         style="fill:none;stroke:#000000;stroke-width:3" />
-      <polygon
-         points="1552.5,-1596.63 1559.5,-1596.63 1559.5,-1596.63 1556,-1586.63 "
-         id="polygon126"
-         style="fill:#000000;stroke:#000000;stroke-width:3" />
-    </g>
-    <!-- launch_sot_pyrene_bringup_geometric_simu -->
-    <g
-       id="node7"
-       class="node">
-      <title
-         id="title129">launch_sot_pyrene_bringup_geometric_simu</title>
-      <polygon
-         points="330,-1586.6 330,-1539.6 674,-1539.6 674,-1586.6 674,-1586.6 "
-         id="polygon131"
-         style="fill:#d3d3d3;stroke:#000000" />
-      <text
-         x="502"
-         y="-1554.6"
-         font-size="35.00"
-         id="text133"
-         style="font-size:35px;font-family:Times, serif;text-anchor:middle">geometric_simu.launch</text>
-    </g>
-    <!-- launch_agimus_demos_talos_manipulate_boxes_geometric_simu&#45;&gt;launch_sot_pyrene_bringup_geometric_simu -->
-    <g
-       id="edge9"
-       class="edge">
-      <title
-         id="title136">launch_agimus_demos_talos_manipulate_boxes_geometric_simu-&gt;launch_sot_pyrene_bringup_geometric_simu</title>
-      <path
-         d="m 1519.41,-2190.57 c -159.74,98.36 -795.898,490.07 -972.012,598.52"
-         id="path138"
-         inkscape:connector-curvature="0"
-         style="fill:none;stroke:#000000;stroke-width:3" />
-      <polygon
-         points="545.314,-1594.88 548.984,-1588.92 548.984,-1588.92 538.634,-1586.66 "
-         id="polygon140"
-         style="fill:#000000;stroke:#000000;stroke-width:3" />
-    </g>
-    <!-- node_tf_static_transform_publisher_to_tf -->
-    <g
-       id="node11"
-       class="node">
-      <title
-         id="title143">node_tf_static_transform_publisher_to_tf</title>
-      <polygon
-         points="1879.5,-1586.6 1879.5,-1539.6 1962.5,-1539.6 1962.5,-1586.6 1962.5,-1586.6 "
-         id="polygon145"
-         style="fill:#6495ed;stroke:#000000" />
-      <text
-         x="1921"
-         y="-1554.6"
-         font-size="35.00"
-         id="text147"
-         style="font-size:35px;font-family:Times, serif;text-anchor:middle">to_tf</text>
-    </g>
-    <!-- launch_agimus_demos_talos_manipulate_boxes_geometric_simu&#45;&gt;node_tf_static_transform_publisher_to_tf -->
-    <g
-       id="edge12"
-       class="edge">
-      <title
-         id="title150">launch_agimus_demos_talos_manipulate_boxes_geometric_simu-&gt;node_tf_static_transform_publisher_to_tf</title>
-      <path
-         d="m 1568.78,-2190.38 c 54.92,97.65 271.01,481.89 334.56,594.87"
-         id="path152"
-         inkscape:connector-curvature="0"
-         style="fill:none;stroke:#000000;stroke-width:3" />
-      <polygon
-         points="1900.37,-1593.63 1906.48,-1597.06 1906.48,-1597.06 1908.33,-1586.63 "
-         id="polygon154"
-         style="fill:#000000;stroke:#000000;stroke-width:3" />
-    </g>
-    <!-- launch_agimus_path_execution -->
-    <g
-       id="node12"
-       class="node">
-      <title
-         id="title157">launch_agimus_path_execution</title>
-      <polygon
-         points="2107,-1586.6 2107,-1539.6 2439,-1539.6 2439,-1586.6 2439,-1586.6 "
-         id="polygon159"
-         style="fill:#d3d3d3;stroke:#000000" />
-      <text
-         x="2273"
-         y="-1554.6"
-         font-size="35.00"
-         id="text161"
-         style="font-size:35px;font-family:Times, serif;text-anchor:middle">path_execution.launch</text>
-    </g>
-    <!-- launch_agimus_demos_talos_manipulate_boxes_geometric_simu&#45;&gt;launch_agimus_path_execution -->
-    <g
-       id="edge11"
-       class="edge">
-      <title
-         id="title164">launch_agimus_demos_talos_manipulate_boxes_geometric_simu-&gt;launch_agimus_path_execution</title>
-      <path
-         d="m 1581.1,-2190.38 c 108.53,98.24 537.51,486.53 659.43,596.89"
-         id="path166"
-         inkscape:connector-curvature="0"
-         style="fill:none;stroke:#000000;stroke-width:3" />
-      <polygon
-         points="2238.34,-1590.75 2243.04,-1595.94 2243.04,-1595.94 2248.11,-1586.63 "
-         id="polygon168"
-         style="fill:#000000;stroke:#000000;stroke-width:3" />
-    </g>
-    <!-- launch_agimus_sot_supervisor -->
-    <g
-       id="node15"
-       class="node">
-      <title
-         id="title171">launch_agimus_sot_supervisor</title>
-      <polygon
-         points="2964,-1586.6 2964,-1539.6 3228,-1539.6 3228,-1586.6 3228,-1586.6 "
-         id="polygon173"
-         style="fill:#d3d3d3;stroke:#000000" />
-      <text
-         x="3096"
-         y="-1554.6"
-         font-size="35.00"
-         id="text175"
-         style="font-size:35px;font-family:Times, serif;text-anchor:middle">supervisor.launch</text>
-    </g>
-    <!-- launch_agimus_demos_talos_manipulate_boxes_geometric_simu&#45;&gt;launch_agimus_sot_supervisor -->
-    <g
-       id="edge8"
-       class="edge">
-      <title
-         id="title178">launch_agimus_demos_talos_manipulate_boxes_geometric_simu-&gt;launch_agimus_sot_supervisor</title>
-      <path
-         d="m 1609.46,-2190.57 c 234.44,98.8 1171.21,493.58 1423.62,599.95"
-         id="path180"
-         inkscape:connector-curvature="0"
-         style="fill:none;stroke:#000000;stroke-width:3" />
-      <polygon
-         points="3031.9,-1587.32 3034.62,-1593.77 3034.62,-1593.77 3042.47,-1586.66 "
-         id="polygon182"
-         style="fill:#000000;stroke:#000000;stroke-width:3" />
-    </g>
-    <!-- node_dynamic_graph_bridge_geometric_simu_node_stack_of_tasks -->
-    <g
-       id="node3"
-       class="node">
-      <title
-         id="title185">node_dynamic_graph_bridge_geometric_simu_node_stack_of_tasks</title>
-      <polygon
-         points="818.5,-807.6 818.5,-760.6 1125.5,-760.6 1125.5,-807.6 1125.5,-807.6 "
-         id="polygon187"
-         style="fill:#6495ed;stroke:#000000" />
-      <text
-         x="972"
-         y="-775.59998"
-         font-size="35.00"
-         id="text189"
-         style="font-size:35px;font-family:Times, serif;text-anchor:middle">node_stack_of_tasks</text>
-    </g>
-    <!-- node_tf2_ros_buffer_server_tf2_buffer_server -->
-    <g
-       id="node4"
-       class="node">
-      <title
-         id="title192">node_tf2_ros_buffer_server_tf2_buffer_server</title>
-      <polygon
-         points="310.5,-157.6 310.5,-110.6 573.5,-110.6 573.5,-157.6 573.5,-157.6 "
-         id="polygon194"
-         style="fill:#6495ed;stroke:#000000" />
-      <text
-         x="442"
-         y="-125.6"
-         font-size="35.00"
-         id="text196"
-         style="font-size:35px;font-family:Times, serif;text-anchor:middle">tf2_buffer_server</text>
-    </g>
-    <!-- node_robot_state_publisher_robot_state_publisher_robot_state_publisher -->
-    <g
-       id="node9"
-       class="node">
-      <title
-         id="title199">node_robot_state_publisher_robot_state_publisher_robot_state_publisher</title>
-      <polygon
-         points="1183.5,-157.6 1183.5,-110.6 1502.5,-110.6 1502.5,-157.6 1502.5,-157.6 "
-         id="polygon201"
-         style="fill:#ff0000;stroke:#000000" />
-      <text
-         x="1343"
-         y="-125.6"
-         font-size="35.00"
-         id="text203"
-         style="font-size:35px;font-family:Times, serif;text-anchor:middle">robot_state_publisher</text>
-    </g>
-    <!-- launch_gerard_bauzil_plank_of_wood&#45;&gt;node_robot_state_publisher_robot_state_publisher_robot_state_publisher -->
-    <g
-       id="edge15"
-       class="edge">
-      <title
-         id="title206">launch_gerard_bauzil_plank_of_wood-&gt;node_robot_state_publisher_robot_state_publisher_robot_state_publisher</title>
-      <path
-         d="m 1068.44,-1539.4 c 32.22,164.81 230.05,1176.661 268.2,1371.763"
-         id="path208"
-         inkscape:connector-curvature="0"
-         style="fill:none;stroke:#000000;stroke-width:3" />
-      <polygon
-         points="1333.23,-166.851 1340.1,-168.194 1340.1,-168.194 1338.58,-157.708 "
-         id="polygon210"
-         style="fill:#000000;stroke:#000000;stroke-width:3" />
     </g>
     <!-- launch_gerard_bauzil_table_140_70_73&#45;&gt;node_robot_state_publisher_robot_state_publisher_robot_state_publisher -->
     <g
        id="edge16"
        class="edge">
       <title
-         id="title213">launch_gerard_bauzil_table_140_70_73-&gt;node_robot_state_publisher_robot_state_publisher_robot_state_publisher</title>
+         id="title137">launch_gerard_bauzil_table_140_70_73-&gt;node_robot_state_publisher_robot_state_publisher_robot_state_publisher</title>
       <path
-         d="m 1555.8,-1539.27 c -1.45,116.22 -12.96,653.406 -103.8,1080.67 -23.36,109.874 -71.88,234.379 -95.5,291.624"
-         id="path215"
+         d="m 677,-2024.5 c 0,187.74 0,1478.048 0,1754.941"
+         id="path139"
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#000000;stroke-width:3" />
       <polygon
-         points="1353.27,-168.31 1359.73,-165.625 1359.73,-165.625 1352.66,-157.733 "
-         id="polygon217"
+         points="680.5,-269.385 677,-259.385 673.5,-269.385 680.5,-269.385 "
+         id="polygon141"
          style="fill:#000000;stroke:#000000;stroke-width:3" />
+    </g>
+    <!-- node_tf_static_transform_publisher_to_tf -->
+    <g
+       id="node7"
+       class="node">
+      <title
+         id="title144">node_tf_static_transform_publisher_to_tf</title>
+      <polygon
+         points="1471,-2091.31 1471,-2091.31 1001,-2091.31 1001,-2005.31 1471,-2005.31 "
+         id="polygon146"
+         style="fill:#6495ed;stroke:#000000" />
+      <text
+         x="1236"
+         y="-2059.3101"
+         font-size="35.00"
+         id="text148"
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">to_tf</text>
+      <text
+         x="1236"
+         y="-2020.3101"
+         font-size="35.00"
+         id="text150"
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">type: static_transform_publisher</text>
+    </g>
+    <!-- launch_sot_pyrene_bringup_geometric_simu -->
+    <g
+       id="node8"
+       class="node">
+      <title
+         id="title153">launch_sot_pyrene_bringup_geometric_simu</title>
+      <polygon
+         points="1959,-2071.81 1959,-2071.81 1615,-2071.81 1615,-2024.81 1959,-2024.81 "
+         id="polygon155"
+         style="fill:#d3d3d3;stroke:#000000" />
+      <text
+         x="1787"
+         y="-2039.8101"
+         font-size="35.00"
+         id="text157"
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">geometric_simu.launch</text>
     </g>
     <!-- launch_sot_pyrene_bringup_geometric_simu&#45;&gt;node_dynamic_graph_bridge_geometric_simu_node_stack_of_tasks -->
     <g
        id="edge3"
        class="edge">
       <title
-         id="title220">launch_sot_pyrene_bringup_geometric_simu-&gt;node_dynamic_graph_bridge_geometric_simu_node_stack_of_tasks</title>
+         id="title160">launch_sot_pyrene_bringup_geometric_simu-&gt;node_dynamic_graph_bridge_geometric_simu_node_stack_of_tasks</title>
       <path
-         d="m 515.812,-1539.27 c 67.151,111.02 359.451,594.245 437.158,722.709"
-         id="path222"
+         d="m 1798.07,-2024.43 c 60.6,125.29 352.79,729.3 440.19,909.97"
+         id="path162"
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#000000;stroke-width:3" />
       <polygon
-         points="950.017,-814.679 956.007,-818.302 956.007,-818.302 958.188,-807.934 "
-         id="polygon224"
+         points="2241.42,-1115.95 2242.63,-1105.43 2235.12,-1112.9 2241.42,-1115.95 "
+         id="polygon164"
          style="fill:#000000;stroke:#000000;stroke-width:3" />
     </g>
     <!-- launch_sot_pyrene_bringup_geometric_simu_context -->
     <g
-       id="node8"
+       id="node9"
        class="node">
       <title
-         id="title227">launch_sot_pyrene_bringup_geometric_simu_context</title>
+         id="title167">launch_sot_pyrene_bringup_geometric_simu_context</title>
       <polygon
-         points="210,-807.6 210,-760.6 674,-760.6 674,-807.6 674,-807.6 "
-         id="polygon229"
+         points="1959,-1085.81 1959,-1085.81 1495,-1085.81 1495,-1038.81 1959,-1038.81 "
+         id="polygon169"
          style="fill:#d3d3d3;stroke:#000000" />
       <text
-         x="442"
-         y="-775.59998"
+         x="1727"
+         y="-1053.8101"
          font-size="35.00"
-         id="text231"
+         id="text171"
          style="font-size:35px;font-family:Times, serif;text-anchor:middle">geometric_simu_context.launch</text>
     </g>
     <!-- launch_sot_pyrene_bringup_geometric_simu&#45;&gt;launch_sot_pyrene_bringup_geometric_simu_context -->
@@ -596,15 +463,15 @@
        id="edge2"
        class="edge">
       <title
-         id="title234">launch_sot_pyrene_bringup_geometric_simu-&gt;launch_sot_pyrene_bringup_geometric_simu_context</title>
+         id="title174">launch_sot_pyrene_bringup_geometric_simu-&gt;launch_sot_pyrene_bringup_geometric_simu_context</title>
       <path
-         d="m 500.237,-1539.27 c -8.538,110.57 -45.589,590.385 -55.687,721.151"
-         id="path236"
+         d="m 1785.61,-2024.43 c -7.93,129.91 -47.23,774.45 -56.6,928.17"
+         id="path176"
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#000000;stroke-width:3" />
       <polygon
-         points="441.044,-818.174 448.023,-817.635 448.023,-817.635 443.763,-807.934 "
-         id="polygon238"
+         points="1732.49,-1095.83 1728.39,-1086.06 1725.5,-1096.25 1732.49,-1095.83 "
+         id="polygon178"
          style="fill:#000000;stroke:#000000;stroke-width:3" />
     </g>
     <!-- launch_sot_pyrene_bringup_geometric_simu_context&#45;&gt;node_tf2_ros_buffer_server_tf2_buffer_server -->
@@ -612,153 +479,340 @@
        id="edge5"
        class="edge">
       <title
-         id="title241">launch_sot_pyrene_bringup_geometric_simu_context-&gt;node_tf2_ros_buffer_server_tf2_buffer_server</title>
+         id="title181">launch_sot_pyrene_bringup_geometric_simu_context-&gt;node_tf2_ros_buffer_server_tf2_buffer_server</title>
       <path
-         d="m 442,-760.417 c 0,97.002 0,477.222 0,592.202"
-         id="path243"
+         d="m 1727,-1038.73 c 0,111.646 0,605.931 0,769.018"
+         id="path183"
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#000000;stroke-width:3" />
       <polygon
-         points="438.5,-167.934 445.5,-167.934 445.5,-167.934 442,-157.934 "
-         id="polygon245"
+         points="1730.5,-269.456 1727,-259.456 1723.5,-269.456 1730.5,-269.456 "
+         id="polygon185"
          style="fill:#000000;stroke:#000000;stroke-width:3" />
-    </g>
-    <!-- node_robot_state_publisher_state_publisher_robot_state_publisher -->
-    <g
-       id="node10"
-       class="node">
-      <title
-         id="title248">node_robot_state_publisher_state_publisher_robot_state_publisher</title>
-      <polygon
-         points="720.5,-157.6 720.5,-110.6 1039.5,-110.6 1039.5,-157.6 1039.5,-157.6 "
-         id="polygon250"
-         style="fill:#ff0000;stroke:#000000" />
-      <text
-         x="880"
-         y="-125.6"
-         font-size="35.00"
-         id="text252"
-         style="font-size:35px;font-family:Times, serif;text-anchor:middle">robot_state_publisher</text>
     </g>
     <!-- launch_sot_pyrene_bringup_geometric_simu_context&#45;&gt;node_robot_state_publisher_state_publisher_robot_state_publisher -->
     <g
        id="edge4"
        class="edge">
       <title
-         id="title255">launch_sot_pyrene_bringup_geometric_simu_context-&gt;node_robot_state_publisher_state_publisher_robot_state_publisher</title>
+         id="title188">launch_sot_pyrene_bringup_geometric_simu_context-&gt;node_robot_state_publisher_state_publisher_robot_state_publisher</title>
       <path
-         d="m 457.332,-760.417 c 65.896,97.491 325.162,481.062 401.446,593.92"
-         id="path257"
+         d="m 1712.37,-1038.73 c -72.58,111.98 -394.63,608.895 -499.35,770.474"
+         id="path190"
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#000000;stroke-width:3" />
       <polygon
-         points="856.066,-164.259 861.865,-168.179 861.865,-168.179 864.566,-157.934 "
-         id="polygon259"
+         points="1215.69,-265.944 1207.32,-259.456 1209.82,-269.752 1215.69,-265.944 "
+         id="polygon192"
          style="fill:#000000;stroke:#000000;stroke-width:3" />
     </g>
-    <!-- node_agimus_path_execution_fsm.py_path_execution_fsm -->
+    <!-- node_agimus_hpp_hpp_node.py_hpp_node -->
     <g
-       id="node13"
+       id="node10"
        class="node">
       <title
-         id="title262">node_agimus_path_execution_fsm.py_path_execution_fsm</title>
+         id="title195">node_agimus_hpp_hpp_node.py_hpp_node</title>
       <polygon
-         points="1987.5,-807.6 1987.5,-760.6 2286.5,-760.6 2286.5,-807.6 2286.5,-807.6 "
-         id="polygon264"
+         points="2378.5,-2091.31 2378.5,-2091.31 2103.5,-2091.31 2103.5,-2005.31 2378.5,-2005.31 "
+         id="polygon197"
          style="fill:#6495ed;stroke:#000000" />
       <text
-         x="2137"
-         y="-775.59998"
+         x="2241"
+         y="-2059.3101"
          font-size="35.00"
-         id="text266"
-         style="font-size:35px;font-family:Times, serif;text-anchor:middle">path_execution_fsm</text>
+         id="text199"
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">hpp_node</text>
+      <text
+         x="2241"
+         y="-2020.3101"
+         font-size="35.00"
+         id="text201"
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">type: hpp_node.py</text>
     </g>
-    <!-- launch_agimus_path_execution&#45;&gt;node_agimus_path_execution_fsm.py_path_execution_fsm -->
+    <!-- launch_agimus_sot_supervisor -->
     <g
-       id="edge6"
-       class="edge">
-      <title
-         id="title269">launch_agimus_path_execution-&gt;node_agimus_path_execution_fsm.py_path_execution_fsm</title>
-      <path
-         d="m 2269,-1539.27 c -19.35,110.57 -103.33,590.385 -126.22,721.151"
-         id="path271"
-         inkscape:connector-curvature="0"
-         style="fill:none;stroke:#000000;stroke-width:3" />
-      <polygon
-         points="2139.27,-818.388 2146.17,-817.181 2146.17,-817.181 2141,-807.934 "
-         id="polygon273"
-         style="fill:#000000;stroke:#000000;stroke-width:3" />
-    </g>
-    <!-- node_agimus_rqt_path_execution_path_execution_supervision -->
-    <g
-       id="node14"
+       id="node11"
        class="node">
       <title
-         id="title276">node_agimus_rqt_path_execution_path_execution_supervision</title>
+         id="title204">launch_agimus_sot_supervisor</title>
       <polygon
-         points="2430.5,-807.6 2430.5,-760.6 2837.5,-760.6 2837.5,-807.6 2837.5,-807.6 "
-         id="polygon278"
-         style="fill:#6495ed;stroke:#000000" />
+         points="2855,-2071.81 2855,-2071.81 2591,-2071.81 2591,-2024.81 2855,-2024.81 "
+         id="polygon206"
+         style="fill:#d3d3d3;stroke:#000000" />
       <text
-         x="2634"
-         y="-775.59998"
+         x="2723"
+         y="-2039.8101"
          font-size="35.00"
-         id="text280"
-         style="font-size:35px;font-family:Times, serif;text-anchor:middle">path_execution_supervision</text>
-    </g>
-    <!-- launch_agimus_path_execution&#45;&gt;node_agimus_rqt_path_execution_path_execution_supervision -->
-    <g
-       id="edge7"
-       class="edge">
-      <title
-         id="title283">launch_agimus_path_execution-&gt;node_agimus_rqt_path_execution_path_execution_supervision</title>
-      <path
-         d="m 2283.61,-1539.27 c 51.47,110.8 275.19,592.314 335.41,721.934"
-         id="path285"
-         inkscape:connector-curvature="0"
-         style="fill:none;stroke:#ff8c00;stroke-width:3" />
-      <polygon
-         points="2616,-815.529 2622.35,-818.478 2622.35,-818.478 2623.39,-807.934 "
-         id="polygon287"
-         style="fill:#ff8c00;stroke:#ff8c00;stroke-width:3" />
-      <text
-         x="2518.5"
-         y="-1165.6"
-         font-size="35.00"
-         id="text289"
-         style="font-size:35px;font-family:Times, serif;text-anchor:middle">gui:=true</text>
+         id="text208"
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">supervisor.launch</text>
     </g>
     <!-- node_agimus_sot_start_supervisor.py_start_supervisor -->
     <g
-       id="node16"
+       id="node12"
        class="node">
       <title
-         id="title292">node_agimus_sot_start_supervisor.py_start_supervisor</title>
+         id="title211">node_agimus_sot_start_supervisor.py_start_supervisor</title>
       <polygon
-         points="2982,-807.6 2982,-760.6 3222,-760.6 3222,-807.6 3222,-807.6 "
-         id="polygon294"
+         points="2929,-1105.31 2929,-1105.31 2567,-1105.31 2567,-1019.31 2929,-1019.31 "
+         id="polygon213"
          style="fill:#6495ed;stroke:#000000" />
       <text
-         x="3102"
-         y="-775.59998"
+         x="2748"
+         y="-1073.3101"
          font-size="35.00"
-         id="text296"
+         id="text215"
          style="font-size:35px;font-family:Times, serif;text-anchor:middle">start_supervisor</text>
+      <text
+         x="2748"
+         y="-1034.3101"
+         font-size="35.00"
+         id="text217"
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">type: start_supervisor.py</text>
     </g>
     <!-- launch_agimus_sot_supervisor&#45;&gt;node_agimus_sot_start_supervisor.py_start_supervisor -->
     <g
        id="edge1"
        class="edge">
       <title
-         id="title299">launch_agimus_sot_supervisor-&gt;node_agimus_sot_start_supervisor.py_start_supervisor</title>
+         id="title220">launch_agimus_sot_supervisor-&gt;node_agimus_sot_start_supervisor.py_start_supervisor</title>
       <path
-         d="m 3096.18,-1539.27 c 0.85,110.57 4.56,590.385 5.57,721.151"
-         id="path301"
+         d="m 2723.58,-2024.43 c 3.18,125.04 18.47,726.9 23.09,908.89"
+         id="path222"
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#000000;stroke-width:3" />
       <polygon
-         points="3098.25,-817.907 3105.25,-817.961 3105.25,-817.961 3101.82,-807.934 "
-         id="polygon303"
+         points="2750.17,-1115.51 2746.93,-1105.43 2743.18,-1115.33 2750.17,-1115.51 "
+         id="polygon224"
+         style="fill:#000000;stroke:#000000;stroke-width:3" />
+    </g>
+    <!-- launch_agimus_path_execution -->
+    <g
+       id="node13"
+       class="node">
+      <title
+         id="title227">launch_agimus_path_execution</title>
+      <polygon
+         points="3443,-2071.81 3443,-2071.81 3111,-2071.81 3111,-2024.81 3443,-2024.81 "
+         id="polygon229"
+         style="fill:#d3d3d3;stroke:#000000" />
+      <text
+         x="3277"
+         y="-2039.8101"
+         font-size="35.00"
+         id="text231"
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">path_execution.launch</text>
+    </g>
+    <!-- node_agimus_path_execution_fsm.py_path_execution_fsm -->
+    <g
+       id="node14"
+       class="node">
+      <title
+         id="title234">node_agimus_path_execution_fsm.py_path_execution_fsm</title>
+      <polygon
+         points="4047,-1105.31 4047,-1105.31 3625,-1105.31 3625,-1019.31 4047,-1019.31 "
+         id="polygon236"
+         style="fill:#6495ed;stroke:#000000" />
+      <text
+         x="3836"
+         y="-1073.3101"
+         font-size="35.00"
+         id="text238"
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">path_execution_fsm</text>
+      <text
+         x="3836"
+         y="-1034.3101"
+         font-size="35.00"
+         id="text240"
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">type: path_execution_fsm.py</text>
+    </g>
+    <!-- launch_agimus_path_execution&#45;&gt;node_agimus_path_execution_fsm.py_path_execution_fsm -->
+    <g
+       id="edge6"
+       class="edge">
+      <title
+         id="title243">launch_agimus_path_execution-&gt;node_agimus_path_execution_fsm.py_path_execution_fsm</title>
+      <path
+         d="m 3289.99,-2024.43 c 71.22,125.35 414.66,729.9 517.1,910.24"
+         id="path245"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:3" />
+      <polygon
+         points="3810.18,-1115.85 3812.07,-1105.43 3804.09,-1112.39 3810.18,-1115.85 "
+         id="polygon247"
+         style="fill:#000000;stroke:#000000;stroke-width:3" />
+    </g>
+    <!-- node_agimus_rqt_path_execution_path_execution_supervision -->
+    <g
+       id="node15"
+       class="node">
+      <title
+         id="title250">node_agimus_rqt_path_execution_path_execution_supervision</title>
+      <polygon
+         points="3480.5,-1105.31 3480.5,-1105.31 3073.5,-1105.31 3073.5,-1019.31 3480.5,-1019.31 "
+         id="polygon252"
+         style="fill:#6495ed;stroke:#000000" />
+      <text
+         x="3277"
+         y="-1073.3101"
+         font-size="35.00"
+         id="text254"
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">path_execution_supervision</text>
+      <text
+         x="3277"
+         y="-1034.3101"
+         font-size="35.00"
+         id="text256"
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">type: rqt_path_execution</text>
+    </g>
+    <!-- launch_agimus_path_execution&#45;&gt;node_agimus_rqt_path_execution_path_execution_supervision -->
+    <g
+       id="edge7"
+       class="edge">
+      <title
+         id="title259">launch_agimus_path_execution-&gt;node_agimus_rqt_path_execution_path_execution_supervision</title>
+      <path
+         d="m 3277,-2024.43 c 0,125.04 0,726.9 0,908.89"
+         id="path261"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff8c00;stroke-width:3" />
+      <polygon
+         points="3280.5,-1115.42 3277,-1105.43 3273.5,-1115.43 3280.5,-1115.42 "
+         id="polygon263"
+         style="fill:#ff8c00;stroke:#ff8c00;stroke-width:3" />
+      <text
+         x="3341.5"
+         y="-1546.8101"
+         font-size="35.00"
+         id="text265"
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">gui:=true</text>
+    </g>
+    <!-- launch_agimus_demos_talos_manipulate_boxes_geometric_simu -->
+    <g
+       id="node16"
+       class="node">
+      <title
+         id="title268">launch_agimus_demos_talos_manipulate_boxes_geometric_simu</title>
+      <polygon
+         points="2136,-2845.81 2136,-2845.81 1438,-2845.81 1438,-2798.81 2136,-2798.81 "
+         id="polygon270"
+         style="fill:#d3d3d3;stroke:#000000" />
+      <text
+         x="1787"
+         y="-2813.8101"
+         font-size="35.00"
+         id="text272"
+         style="font-size:35px;font-family:Times, serif;text-anchor:middle">talos_manipulate_boxes_geometric_simu.launch</text>
+    </g>
+    <!-- launch_agimus_demos_talos_manipulate_boxes_geometric_simu&#45;&gt;launch_gerard_bauzil_plank_of_wood -->
+    <g
+       id="edge13"
+       class="edge">
+      <title
+         id="title275">launch_agimus_demos_talos_manipulate_boxes_geometric_simu-&gt;launch_gerard_bauzil_plank_of_wood</title>
+      <path
+         d="m 1739.92,-2798.62 c -231.53,111.57 -1248.322,601.56 -1498.943,722.34"
+         id="path277"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:3" />
+      <polygon
+         points="242.221,-2073 231.693,-2071.81 239.182,-2079.3 242.221,-2073 "
+         id="polygon279"
+         style="fill:#000000;stroke:#000000;stroke-width:3" />
+    </g>
+    <!-- launch_agimus_demos_talos_manipulate_boxes_geometric_simu&#45;&gt;launch_gerard_bauzil_table_140_70_73 -->
+    <g
+       id="edge14"
+       class="edge">
+      <title
+         id="title282">launch_agimus_demos_talos_manipulate_boxes_geometric_simu-&gt;launch_gerard_bauzil_table_140_70_73</title>
+      <path
+         d="m 1754.38,-2798.62 c -159.87,111.19 -860.071,598.18 -1036.772,721.07"
+         id="path284"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:3" />
+      <polygon
+         points="719.561,-2074.65 709.353,-2071.81 715.564,-2080.39 719.561,-2074.65 "
+         id="polygon286"
+         style="fill:#000000;stroke:#000000;stroke-width:3" />
+    </g>
+    <!-- launch_agimus_demos_talos_manipulate_boxes_geometric_simu&#45;&gt;node_tf_static_transform_publisher_to_tf -->
+    <g
+       id="edge12"
+       class="edge">
+      <title
+         id="title289">launch_agimus_demos_talos_manipulate_boxes_geometric_simu-&gt;node_tf_static_transform_publisher_to_tf</title>
+      <path
+         d="m 1770.81,-2798.62 c -75.19,105.35 -391.19,548.08 -498.77,698.81"
+         id="path291"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:3" />
+      <polygon
+         points="1274.83,-2097.68 1266.17,-2091.58 1269.13,-2101.75 1274.83,-2097.68 "
+         id="polygon293"
+         style="fill:#000000;stroke:#000000;stroke-width:3" />
+    </g>
+    <!-- launch_agimus_demos_talos_manipulate_boxes_geometric_simu&#45;&gt;launch_sot_pyrene_bringup_geometric_simu -->
+    <g
+       id="edge9"
+       class="edge">
+      <title
+         id="title296">launch_agimus_demos_talos_manipulate_boxes_geometric_simu-&gt;launch_sot_pyrene_bringup_geometric_simu</title>
+      <path
+         d="m 1787,-2798.62 c 0,109.86 0,586.58 0,716.51"
+         id="path298"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:3" />
+      <polygon
+         points="1790.5,-2082 1787,-2072 1783.5,-2082 1790.5,-2082 "
+         id="polygon300"
+         style="fill:#000000;stroke:#000000;stroke-width:3" />
+    </g>
+    <!-- launch_agimus_demos_talos_manipulate_boxes_geometric_simu&#45;&gt;node_agimus_hpp_hpp_node.py_hpp_node -->
+    <g
+       id="edge10"
+       class="edge">
+      <title
+         id="title303">launch_agimus_demos_talos_manipulate_boxes_geometric_simu-&gt;node_agimus_hpp_hpp_node.py_hpp_node</title>
+      <path
+         d="m 1800.34,-2798.62 c 61.9,105.25 321.8,547.2 410.7,698.36"
+         id="path305"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:3" />
+      <polygon
+         points="2214.09,-2101.97 2216.14,-2091.58 2208.06,-2098.42 2214.09,-2101.97 "
+         id="polygon307"
+         style="fill:#000000;stroke:#000000;stroke-width:3" />
+    </g>
+    <!-- launch_agimus_demos_talos_manipulate_boxes_geometric_simu&#45;&gt;launch_agimus_sot_supervisor -->
+    <g
+       id="edge8"
+       class="edge">
+      <title
+         id="title310">launch_agimus_demos_talos_manipulate_boxes_geometric_simu-&gt;launch_agimus_sot_supervisor</title>
+      <path
+         d="m 1814.51,-2798.62 c 134.4,110.85 721.67,595.23 872.88,719.94"
+         id="path312"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:3" />
+      <polygon
+         points="2690.01,-2081.06 2695.49,-2072 2685.55,-2075.66 2690.01,-2081.06 "
+         id="polygon314"
+         style="fill:#000000;stroke:#000000;stroke-width:3" />
+    </g>
+    <!-- launch_agimus_demos_talos_manipulate_boxes_geometric_simu&#45;&gt;launch_agimus_path_execution -->
+    <g
+       id="edge11"
+       class="edge">
+      <title
+         id="title317">launch_agimus_demos_talos_manipulate_boxes_geometric_simu-&gt;launch_agimus_path_execution</title>
+      <path
+         d="m 1830.79,-2798.62 c 215.23,111.52 1160.11,601.08 1393.8,722.16"
+         id="path319"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:3" />
+      <polygon
+         points="3226.3,-2079.52 3233.57,-2071.81 3223.08,-2073.3 3226.3,-2079.52 "
+         id="polygon321"
          style="fill:#000000;stroke:#000000;stroke-width:3" />
     </g>
   </g>
