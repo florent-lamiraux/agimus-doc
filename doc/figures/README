@@ -1,5 +1,12 @@
+To generate the ROS node graphs
+
+rosrun rqt_graph rqt_graph
+
 To generate the roslaunch diagram, go to roslaunch_to_dot and type
 
-./roslaunch-to-dot.py --show-node-type /home/florent/devel/pyrene/agimus/install/share/agimus_demos/launch/talos_manipulate_boxes_geometric_simu.launch --svg talos-manipulate-boxes-geometric-simu.launch.svg
+./roslaunch-to-dot.py --show-node-type /home/florent/devel/pyrene/agimus/install/share/agimus_demos/launch/talos_manipulate_boxes_geometric_simu.launch talos-manipulate-boxes-geometric-simu.launch.dot.in
 
-then resize the figure in inkscape.
+then
+  1. add size information by hand: size = "15,15",
+  2. add links to agimus packages documentations.
+

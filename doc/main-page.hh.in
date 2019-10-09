@@ -1,4 +1,4 @@
-// Copyright 2019 CNRS Airbus
+// Copyright 2019 CNRS Airbus SAS
 // Author: Florent Lamiraux
 
 // Redistribution and use in source and binary forms, with or without
@@ -64,11 +64,20 @@
 ///
 /// In this mode, the control input computed by the Stack of Tasks software is
 /// integrated to update the configuration of the robot. The two figures below
-/// display the architecture.
+/// display the ROS node architecture.
 ///
-/// \image html talos-manipulate-boxes-geometric-simu.launch.svg "Example of ROS architecture for a humanoid robot manipulating a box on a table. Blue and red boxes represent ROS nodes grouped by packages. Grey boxes represent launch files."
+/// The nodes more specific to agimus architecture are the following
 ///
-/// \image html geometric-simu-rosgraph.svg "Example of ROS architecture for a humanoid robot manipulating a box on a table. Ellipses represent ROS nodes, arrows represent topics."
+/// Node name | package | type | description
+/// --------- | ------- | ---- | -----------
+/// hpp_node  | <a href="@AGIMUS_HPP_DOXYGENDOCDIR@/index.html">agimus_hpp</a> | hpp_node.py | Client to HPP manipulation planner. Note that \c hppcorbaserver executable must be running and accessible via CORBA channel. This node reads from \c hppcorbaserver. Manipulation planning requests should be launched by the user.
+/// start_supervisor | <a href="@AGIMUS_SOT_DOXYGENDOCDIR@/index.html">agimus_sot</a> | start_supervisor.py | Runs a script in the remote python interpreter of the Stack Of Tasks (service \c RunCommand). The name of the script is given as a parameter.
+/// path_execution_fsm | <a href="@AGIMUS_DOXYGENDOCDIR@/index.html"> agimus </a> | path_execution_fsm.py | Creates a finite-state machine implemented using smach (see ROS wiki for displaying the fsm).
+/// path_execution_supervision | <a href="@AGIMUS_DOXYGENDOCDIR@/index.html"> agimus </a> | rqt_path_execution | GUI that enables the user to control the above finite-state machine in order to follow the planned trajectory as desired (step by step, one shot,...)
+///
+/// \dotfile talos-manipulate-boxes-geometric-simu.launch.dot "Example of ROS architecture for a humanoid robot manipulating a box on a table. Blue and red boxes represent ROS nodes grouped by packages. Grey boxes represent launch files." width=100%
+///
+/// \image html talos-manipulate-boxes-geometric-simu-rosgraph.svg "Example of ROS architecture for a humanoid robot manipulating a box on a table. Ellipses represent ROS nodes, rectangles represent topics." width=100%
 ///
 /// \subsection agimus_doc_subsec_gazebo_simulation Gazebo simulation
 ///
@@ -78,7 +87,7 @@
 /// \li \c hpp_node
 /// \li ...
 ///
-/// \subsection agimus_doc_subsec_real_robot
+/// \subsection agimus_doc_subsec_real_robot On the real robot
 ///
 /// In this mode, the software is run on the real robot.
 ///

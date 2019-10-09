@@ -43,6 +43,9 @@ ADD_DOC_DEPENDENCY (agimus_demos)
 ADD_DOC_DEPENDENCY (hpp-manipulation-corba)
 
 CONFIGURE_FILE (doc/main-page.hh.in ${CMAKE_BINARY_DIR}/doc/main-page.hh
-          @ONLY)
+  @ONLY)
+CONFIGURE_FILE (doc/figures/talos-manipulate-boxes-geometric-simu.launch.dot.in
+  ${CMAKE_BINARY_DIR}/doc/figures/talos-manipulate-boxes-geometric-simu.launch.dot
+  @ONLY)
 
 SETUP_HPP_PROJECT_FINALIZE ()

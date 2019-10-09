@@ -1,0 +1,175 @@
+digraph talos_manipulate_boxes_geometric_simu {
+        size = "15,15"
+	graph [compound=True,
+		fontsize=35,
+		nodesep=2,
+		ranksep=2,
+		ratio=0.772727272727
+	];
+	node [fontsize=35,
+		label="\N"
+	];
+	edge [fontsize=35];
+	subgraph cluster_dynamic_graph_bridge {
+		graph [label=dynamic_graph_bridge,
+			penwidth=3
+		];
+		node_dynamic_graph_bridge_geometric_simu_node_stack_of_tasks		 [fillcolor="#6495ed",
+			label="node_stack_of_tasks
+type: geometric_simu",
+			shape=rectangle,
+			style=filled];
+	}
+	subgraph cluster_tf2_ros {
+		graph [label=tf2_ros,
+			penwidth=3
+		];
+		node_tf2_ros_buffer_server_tf2_buffer_server		 [fillcolor="#6495ed",
+			label="tf2_buffer_server
+type: buffer_server",
+			shape=rectangle,
+			style=filled];
+	}
+	subgraph cluster_gerard_bauzil {
+		graph [label=gerard_bauzil,
+			penwidth=3
+		];
+		launch_gerard_bauzil_plank_of_wood		 [fillcolor="#d3d3d3",
+			label="plank_of_wood.launch",
+			shape=rectangle,
+			style=filled];
+		launch_gerard_bauzil_table_140_70_73		 [fillcolor="#d3d3d3",
+			label="table_140_70_73.launch",
+			shape=rectangle,
+			style=filled];
+	}
+	subgraph cluster_agimus_hpp {
+		graph [label=agimus_hpp,
+                      href="@AGIMUS_HPP_DOXYGENDOCDIR@/index.html",
+			penwidth=3
+		];
+		"node_agimus_hpp_hpp_node.py_hpp_node"		 [fillcolor="#6495ed",
+			label="hpp_node
+type: hpp_node.py",
+			shape=rectangle,
+			style=filled];
+	}
+	subgraph cluster_sot_pyrene_bringup {
+		graph [label=sot_pyrene_bringup,
+			penwidth=3
+		];
+		launch_sot_pyrene_bringup_geometric_simu		 [fillcolor="#d3d3d3",
+			label="geometric_simu.launch",
+			shape=rectangle,
+			style=filled];
+		launch_sot_pyrene_bringup_geometric_simu_context		 [fillcolor="#d3d3d3",
+			label="geometric_simu_context.launch",
+			shape=rectangle,
+			style=filled];
+		yaml_sot_pyrene_bringup_pyrene_yaml		 [label="pyrene.yaml"];
+	}
+	subgraph cluster_agimus_demos {
+		graph [label=agimus_demos
+			penwidth=3
+		];
+		launch_agimus_demos_talos_manipulate_boxes_geometric_simu		 [fillcolor="#d3d3d3",
+			label="talos_manipulate_boxes_geometric_simu.launch",
+			shape=rectangle,
+			style=filled];
+	}
+	subgraph cluster_agimus_sot {
+		graph [label=agimus_sot,
+                href="@AGIMUS_SOT_DOXYGENDOCDIR@/index.html",
+			penwidth=3
+		];
+		launch_agimus_sot_supervisor		 [fillcolor="#d3d3d3",
+			label="supervisor.launch",
+			shape=rectangle,
+			style=filled];
+		"node_agimus_sot_start_supervisor.py_start_supervisor"		 [fillcolor="#6495ed",
+			label="start_supervisor
+type: start_supervisor.py",
+			shape=rectangle,
+			style=filled];
+	}
+	subgraph cluster_robot_state_publisher {
+		graph [label=robot_state_publisher,
+			penwidth=3
+		];
+		node_robot_state_publisher_robot_state_publisher_robot_state_publisher		 [fillcolor=red,
+			label="robot_state_publisher
+type: robot_state_publisher",
+			shape=rectangle,
+			style=filled];
+		node_robot_state_publisher_state_publisher_robot_state_publisher		 [fillcolor=red,
+			label="robot_state_publisher
+type: state_publisher",
+			shape=rectangle,
+			style=filled];
+	}
+	subgraph cluster_tf {
+		graph [label=tf,
+			penwidth=3
+		];
+		node_tf_static_transform_publisher_to_tf		 [fillcolor="#6495ed",
+			label="to_tf
+type: static_transform_publisher",
+			shape=rectangle,
+			style=filled];
+	}
+	subgraph cluster_agimus {
+		graph [label=agimus,
+                href="@AGIMUS_DOXYGENDOCDIR@/index.html",
+			penwidth=3
+		];
+		launch_agimus_path_execution		 [fillcolor="#d3d3d3",
+			label="path_execution.launch",
+			shape=rectangle,
+			style=filled];
+		"node_agimus_path_execution_fsm.py_path_execution_fsm"		 [fillcolor="#6495ed",
+			label="path_execution_fsm
+type: path_execution_fsm.py",
+			shape=rectangle,
+			style=filled];
+		node_agimus_rqt_path_execution_path_execution_supervision		 [fillcolor="#6495ed",
+			label="path_execution_supervision
+type: rqt_path_execution",
+			shape=rectangle,
+			style=filled];
+	}
+	launch_agimus_sot_supervisor -> "node_agimus_sot_start_supervisor.py_start_supervisor"	 [color=black,
+		penwidth=3];
+	launch_sot_pyrene_bringup_geometric_simu -> launch_sot_pyrene_bringup_geometric_simu_context	 [color=black,
+		penwidth=3];
+	launch_sot_pyrene_bringup_geometric_simu -> node_dynamic_graph_bridge_geometric_simu_node_stack_of_tasks	 [color=black,
+		penwidth=3];
+	launch_sot_pyrene_bringup_geometric_simu_context -> yaml_sot_pyrene_bringup_pyrene_yaml	 [color=black,
+		penwidth=3];
+	launch_sot_pyrene_bringup_geometric_simu_context -> node_robot_state_publisher_state_publisher_robot_state_publisher	 [color=black,
+		penwidth=3];
+	launch_sot_pyrene_bringup_geometric_simu_context -> node_tf2_ros_buffer_server_tf2_buffer_server	 [color=black,
+		penwidth=3];
+	launch_agimus_path_execution -> "node_agimus_path_execution_fsm.py_path_execution_fsm"	 [color=black,
+		penwidth=3];
+	launch_agimus_path_execution -> node_agimus_rqt_path_execution_path_execution_supervision	 [color="#ff8c00",
+		label="gui:=true",
+		penwidth=3];
+	launch_agimus_demos_talos_manipulate_boxes_geometric_simu -> launch_agimus_sot_supervisor	 [color=black,
+		penwidth=3];
+	launch_agimus_demos_talos_manipulate_boxes_geometric_simu -> launch_sot_pyrene_bringup_geometric_simu	 [color=black,
+		penwidth=3];
+	launch_agimus_demos_talos_manipulate_boxes_geometric_simu -> "node_agimus_hpp_hpp_node.py_hpp_node"	 [color=black,
+		penwidth=3];
+	launch_agimus_demos_talos_manipulate_boxes_geometric_simu -> launch_agimus_path_execution	 [color=black,
+		penwidth=3];
+	launch_agimus_demos_talos_manipulate_boxes_geometric_simu -> node_tf_static_transform_publisher_to_tf	 [color=black,
+		penwidth=3];
+	launch_agimus_demos_talos_manipulate_boxes_geometric_simu -> launch_gerard_bauzil_plank_of_wood	 [color=black,
+		penwidth=3];
+	launch_agimus_demos_talos_manipulate_boxes_geometric_simu -> launch_gerard_bauzil_table_140_70_73	 [color=black,
+		penwidth=3];
+	launch_gerard_bauzil_plank_of_wood -> node_robot_state_publisher_robot_state_publisher_robot_state_publisher	 [color=black,
+		penwidth=3];
+	launch_gerard_bauzil_table_140_70_73 -> node_robot_state_publisher_robot_state_publisher_robot_state_publisher	 [color=black,
+		penwidth=3];
+}
