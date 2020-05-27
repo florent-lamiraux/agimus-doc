@@ -46,9 +46,9 @@
 ///
 /// \li For each segment of the motion, a controller is created in the
 /// Stack of Tasks framework. This step is produced by package
-/// <a href="@AGIMUS_SOT_DOXYGENDOCDIR@/index.html"> \c agimus_sot </a>.
+/// <a href="@AGIMUS_SOT_DOXYGENDOCDIR@/index.html"> \c agimus-sot </a>.
 /// Reference motions for each task is extracted from the planned trajectory
-/// by <a href="@AGIMUS_HPP_DOXYGENDOCDIR@/index.html">agimus_hpp</a>.
+/// by <a href="@AGIMUS_HPP_DOXYGENDOCDIR@/index.html">agimus-hpp</a>.
 ///
 /// \li A finite state machine switch from one controller to the next
 ///  one.  This finite state machine is implemented in package
@@ -70,9 +70,9 @@
 ///
 /// Node name | package | type | description
 /// --------- | ------- | ---- | -----------
-/// /agimus/hpp/hpp_node  | <a href="@AGIMUS_HPP_DOXYGENDOCDIR@/index.html">agimus_hpp</a> | <a href=@AGIMUS_HPP_PKGDATAROOTDIR@/agimus_hpp/scripts/hpp_node.py>hpp_node.py</a> | Client to HPP manipulation planner. Note that \c hppcorbaserver executable must be running and accessible via CORBA channel. This node reads from \c hppcorbaserver. Manipulation planning requests should be launched by the user.
-/// /agimus/hpp/hpp_estimation | <a href="@AGIMUS_HPP_DOXYGENDOCDIR@/index.html">agimus_hpp</a> | estimation.py | Estimates the geometric state of the system based on known constraints: such object should be on such table... (see class agimus_hpp.estimation.Estimation).
-/// /agimus/sot/start_supervisor | <a href="@AGIMUS_SOT_DOXYGENDOCDIR@/index.html">agimus_sot</a> | <a href=@AGIMUS_SOT_PKGDATAROOTDIR@/agimus_sot/scripts/start_supervisor.py>start_supervisor.py</a> | Runs a script in the remote python interpreter of the Stack Of Tasks (service \c RunCommand). The name of the script is given as a parameter (see <a href=@CMAKE_INSTALL_PREFIX@/share/agimus_demos/talos/manipulate_boxes/supervisor.py>default script</a>).
+/// /agimus/hpp/hpp_node  | <a href="@AGIMUS_HPP_DOXYGENDOCDIR@/index.html">agimus-hpp</a> | <a href=@AGIMUS_HPP_PKGDATAROOTDIR@/agimus-hpp/scripts/hpp_node.py>hpp_node.py</a> | Client to HPP manipulation planner. Note that \c hppcorbaserver executable must be running and accessible via CORBA channel. This node reads from \c hppcorbaserver. Manipulation planning requests should be launched by the user.
+/// /agimus/hpp/hpp_estimation | <a href="@AGIMUS_HPP_DOXYGENDOCDIR@/index.html">agimus-hpp</a> | estimation.py | Estimates the geometric state of the system based on known constraints: such object should be on such table... (see class agimus-hpp.estimation.Estimation).
+/// /agimus/sot/start_supervisor | <a href="@AGIMUS_SOT_DOXYGENDOCDIR@/index.html">agimus-sot</a> | <a href=@AGIMUS_SOT_PKGDATAROOTDIR@/agimus-sot/scripts/start_supervisor.py>start_supervisor.py</a> | Runs a script in the remote python interpreter of the Stack Of Tasks (service \c RunCommand). The name of the script is given as a parameter (see <a href=@CMAKE_INSTALL_PREFIX@/share/agimus_demos/talos/manipulate_boxes/supervisor.py>default script</a>).
 /// /agimus/path_execution_fsm | <a href="@AGIMUS_PREFIX@/share/doc/agimus/doxygen-html/index.html"> agimus </a> | path_execution_fsm.py | Creates a finite-state machine implemented using smach (see ROS wiki for displaying the fsm).
 /// /agimus/path_execution_supervision | <a href="@AGIMUS_PREFIX@/share/doc/agimus/doxygen-html/index.html"> agimus </a> | rqt_path_execution | GUI that enables the user to control the above finite-state machine in order to follow the planned trajectory as desired (step by step, one shot,...)
 ///

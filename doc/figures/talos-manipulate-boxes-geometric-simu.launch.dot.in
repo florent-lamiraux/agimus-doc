@@ -44,11 +44,11 @@ type: buffer_server",
 			style=filled];
 	}
 	subgraph cluster_agimus_hpp {
-		graph [label=agimus_hpp,
+		graph [label="agimus-hpp",
                       href="@AGIMUS_HPP_DOXYGENDOCDIR@/index.html",
 			penwidth=3
 		];
-		"node_agimus_hpp_hpp_node.py_hpp_node"		 [fillcolor="#6495ed",
+		"node_agimus-hpp_hpp_node.py_hpp_node"		 [fillcolor="#6495ed",
 			label="hpp_node
 type: hpp_node.py",
 			shape=rectangle,
@@ -78,7 +78,7 @@ type: hpp_node.py",
 			style=filled];
 	}
 	subgraph cluster_agimus_sot {
-		graph [label=agimus_sot,
+		graph [label="agimus-sot",
                 href="@AGIMUS_SOT_DOXYGENDOCDIR@/index.html",
 			penwidth=3
 		];
@@ -86,7 +86,7 @@ type: hpp_node.py",
 			label="supervisor.launch",
 			shape=rectangle,
 			style=filled];
-		"node_agimus_sot_start_supervisor.py_start_supervisor"		 [fillcolor="#6495ed",
+		"node_agimus-sot_start_supervisor.py_start_supervisor"		 [fillcolor="#6495ed",
 			label="start_supervisor
 type: start_supervisor.py",
 			shape=rectangle,
@@ -137,7 +137,7 @@ type: rqt_path_execution",
 			shape=rectangle,
 			style=filled];
 	}
-	launch_agimus_sot_supervisor -> "node_agimus_sot_start_supervisor.py_start_supervisor"	 [color=black,
+	launch_agimus_sot_supervisor -> "node_agimus-sot_start_supervisor.py_start_supervisor"	 [color=black,
 		penwidth=3];
 	launch_sot_pyrene_bringup_geometric_simu -> launch_sot_pyrene_bringup_geometric_simu_context	 [color=black,
 		penwidth=3];
@@ -158,7 +158,7 @@ type: rqt_path_execution",
 		penwidth=3];
 	launch_agimus_demos_talos_manipulate_boxes_geometric_simu -> launch_sot_pyrene_bringup_geometric_simu	 [color=black,
 		penwidth=3];
-	launch_agimus_demos_talos_manipulate_boxes_geometric_simu -> "node_agimus_hpp_hpp_node.py_hpp_node"	 [color=black,
+	launch_agimus_demos_talos_manipulate_boxes_geometric_simu -> "node_agimus-hpp_hpp_node.py_hpp_node"	 [color=black,
 		penwidth=3];
 	launch_agimus_demos_talos_manipulate_boxes_geometric_simu -> launch_agimus_path_execution	 [color=black,
 		penwidth=3];

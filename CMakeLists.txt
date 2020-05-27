@@ -36,8 +36,8 @@ SET(PROJECT_URL "")
 
 SETUP_HPP_PROJECT ()
 
-ADD_DOC_DEPENDENCY (agimus_sot)
-ADD_DOC_DEPENDENCY (agimus_hpp)
+ADD_DOC_DEPENDENCY (agimus-sot)
+ADD_DOC_DEPENDENCY (agimus-hpp)
 ADD_DOC_DEPENDENCY (agimus)
 ADD_DOC_DEPENDENCY (agimus_demos)
 ADD_DOC_DEPENDENCY (hpp-manipulation-corba)
