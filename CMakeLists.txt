@@ -27,14 +27,15 @@
 
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 
-INCLUDE(cmake/base.cmake)
-INCLUDE(cmake/hpp.cmake)
-
 SET(PROJECT_NAME agimus-doc)
 SET(PROJECT_DESCRIPTION "Documentation of Agimus framework")
 SET(PROJECT_URL "")
 
-SETUP_HPP_PROJECT ()
+INCLUDE(cmake/base.cmake)
+INCLUDE(cmake/hpp.cmake)
+
+COMPUTE_PROJECT_ARGS(PROJECT_ARGS LANGUAGES CXX)
+project(${PROJECT_NAME} ${PROJECT_ARGS})
 
 ADD_DOC_DEPENDENCY (agimus-sot)
 ADD_DOC_DEPENDENCY (agimus-hpp)
@@ -47,5 +48,3 @@ CONFIGURE_FILE (doc/main-page.hh.in ${CMAKE_BINARY_DIR}/doc/main-page.hh
 CONFIGURE_FILE (doc/figures/talos-manipulate-boxes-geometric-simu.launch.dot.in
   ${CMAKE_BINARY_DIR}/doc/figures/talos-manipulate-boxes-geometric-simu.launch.dot
   @ONLY)
-
-SETUP_HPP_PROJECT_FINALIZE ()
